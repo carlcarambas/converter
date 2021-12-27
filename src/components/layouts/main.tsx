@@ -4,15 +4,15 @@ import CurrencyRow from '@components/CurrencyRow'
 import WalletDetails from '@components/WalletDetailsDialog'
 import SwapHorizIcon from '@material-ui/icons/SwapHoriz'
 import { Grid, Button, FormControl, Container } from '@mui/material'
-import { LinearProgress } from '@material-ui/core'
-import { createStyles, makeStyles, Theme } from '@material-ui/core/styles'
+// import { LinearProgress } from '@material-ui/core'
+import { createStyles, makeStyles } from '@material-ui/core/styles'
 
 const CURRENCY_RATES = {
   NEP: 1,
   BUSD: 3
 }
 
-const useStyles = makeStyles((theme: Theme) =>
+const useStyles = makeStyles(() =>
   createStyles({
     checkDetailsButton: {
       marginTop: 15,

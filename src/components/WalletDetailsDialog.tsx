@@ -27,7 +27,7 @@ const WalletNotConnected = () => {
   return (
     <>
       <Typography>Wallet not connected.</Typography>
-      <Typography>Please click the "Connect" button below</Typography>
+      <Typography>Please click the Connect button below</Typography>
     </>
   )
 }

@@ -4,11 +4,10 @@ import {
   DialogTitle,
   DialogContent,
   makeStyles,
-  Typography,
-  Grid
+  Typography
 } from '@material-ui/core'
-import { ActionButton, Button } from '@components/controls'
-import Form from '@components/common/Form'
+import { ActionButton } from '@components/controls'
+// import Form from '@components/common/Form'
 import CloseIcon from '@material-ui/icons/Close'
 
 const useStyles = makeStyles(theme => ({
@@ -25,10 +24,6 @@ const useStyles = makeStyles(theme => ({
 export const Popup = props => {
   const { title, children, openPopup, setOpenPopup } = props
   const classes = useStyles()
-
-  const handleSubmit = e => {
-    e.preventDefault()
-  }
 
   return (
     <Dialog
